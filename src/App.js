@@ -17,9 +17,7 @@ function App() {
           <Route path='/login' element={<Login />} />
           <Route path='/list' element={<List />} />
           <Route path='/Addtodo' element={<AddTodo />} />
-          <Route path='/modify/:id' element={<Modify/>} />
-
-
+          <Route path='/modify/:id' element={<Modify />} />
         </Routes>
       </Router>
     </div>
